@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1><i>hello {{ name}}</i> is itallic from</h1>
+{% for i in users %}
+  <h3>{{i}}</h3>
+{% endfor  %}
+{% endblock  %}
